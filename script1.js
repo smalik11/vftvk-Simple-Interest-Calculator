@@ -5,7 +5,7 @@ let noOfYears = document.getElementById("duration");
 let result = document.getElementById("outcome");
 let resultBtn = document.getElementById("outcome-btn");
 
-var interestRate = intRate.value
+var interestRate = intRate.value;
 intSlider.innerHTML = interestRate + "%";
 
 intRate.oninput = function () {
